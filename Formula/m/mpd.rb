@@ -2,12 +2,11 @@ class Mpd < Formula
   desc "Music Player Daemon"
   homepage "https://github.com/MusicPlayerDaemon/MPD"
   license "GPL-2.0-or-later"
-  revision 1
   head "https://github.com/MusicPlayerDaemon/MPD.git", branch: "master"
 
   stable do
-    url "https://github.com/MusicPlayerDaemon/MPD/archive/refs/tags/v0.23.17.tar.gz"
-    sha256 "6fcdc5db284297150734afd9b3d1a5697a29f6297eff1b56379018e31d023838"
+    url "https://github.com/MusicPlayerDaemon/MPD/archive/refs/tags/v0.24.tar.gz"
+    sha256 "1d536e715e38b4a19ff68859c88adc1a0fd4e385d23ad5add5fdcafdc02aaf2d"
 
     # support libnfs 6.0.0, upstream commit ref, https://github.com/MusicPlayerDaemon/MPD/commit/31e583e9f8d14b9e67eab2581be8e21cd5712b47
     patch do
